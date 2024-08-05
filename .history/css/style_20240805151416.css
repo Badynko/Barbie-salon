@@ -295,7 +295,6 @@ ul {
   }
 
   .left {
-    margin-left: 0;
     width: 100vw;
   }
 
@@ -312,16 +311,8 @@ ul {
     width: 80%;
   }
 
-  nav {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-
   .menu a:link {
-    padding: 0;
-  }
-
-  .social {
-    display: none;
+    padding-top: 0;
+    font-size: 1rem;
   }
 }

@@ -312,16 +312,9 @@ ul {
     width: 80%;
   }
 
-  nav {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-
   .menu a:link {
-    padding: 0;
-  }
+    padding-top: 0;
 
-  .social {
-    display: none;
+    font-size: 1rem;
   }
 }

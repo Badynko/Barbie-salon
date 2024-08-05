@@ -277,51 +277,31 @@ ul {
   main {
     padding: 5em 0 5em 0;
   }
+}
 
-  header {
-    flex-direction: column;
-    flex: 1 1;
-  }
+header {
+  flex-direction: column;
+  flex: 1 1;
+}
 
-  .logo img {
-    max-height: 100%;
-    max-width: 300px;
-    overflow: hidden;
-  }
+.logo img {
+  width: 100%;
+}
 
-  .post img {
-    width: 50px;
-    height: 50px;
-  }
+.post img {
+  width: 50px;
+  height: 50px;
+}
 
-  .left {
-    margin-left: 0;
-    width: 100vw;
-  }
+.left {
+  width: 100%;
+}
 
-  .post {
-    margin-left: 0;
-    margin-right: 0;
-  }
+.post {
+  margin-left: 0;
+  margin-right: 0;
+}
 
-  .right {
-    flex: 1 1 100px;
-  }
-
-  footer {
-    width: 80%;
-  }
-
-  nav {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-
-  .menu a:link {
-    padding: 0;
-  }
-
-  .social {
-    display: none;
-  }
+.right {
+  flex: 1 1 100px;
 }

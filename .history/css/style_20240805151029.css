@@ -284,9 +284,7 @@ ul {
   }
 
   .logo img {
-    max-height: 100%;
-    max-width: 300px;
-    overflow: hidden;
+    width: 100%;
   }
 
   .post img {
@@ -295,8 +293,7 @@ ul {
   }
 
   .left {
-    margin-left: 0;
-    width: 100vw;
+    width: 80%;
   }
 
   .post {
@@ -310,18 +307,5 @@ ul {
 
   footer {
     width: 80%;
-  }
-
-  nav {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-
-  .menu a:link {
-    padding: 0;
-  }
-
-  .social {
-    display: none;
   }
 }
