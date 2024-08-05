@@ -275,7 +275,7 @@ ul {
   }
 
   main {
-    padding: 0;
+    padding: 5em 0 5em 0;
   }
 
   header {
@@ -307,7 +307,6 @@ ul {
 
   .right {
     flex: 1 1 100px;
-    width: 100%;
   }
 
   footer {

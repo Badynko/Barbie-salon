@@ -275,7 +275,7 @@ ul {
   }
 
   main {
-    padding: 0;
+    padding: 5em 0 5em 0;
   }
 
   header {
@@ -297,7 +297,6 @@ ul {
   .left {
     margin-left: 0;
     width: 100vw;
-    order: 2;
   }
 
   .post {
@@ -307,7 +306,6 @@ ul {
 
   .right {
     flex: 1 1 100px;
-    width: 100%;
   }
 
   footer {
@@ -329,6 +327,5 @@ ul {
 
   .main {
     order: 0;
-    align-items: start;
   }
 }
