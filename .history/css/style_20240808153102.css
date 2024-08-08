@@ -329,18 +329,14 @@ ul {
 
   .order-button {
     background-color: #fb0e75;
-
     font-size: 1.3rem;
-    font-family: "Cinzel Decorative", serif;
   }
 
   .order-button a:link {
     color: #fff;
-    text-decoration: none;
   }
 
   .order-button a:visited {
     color: #fff;
-    text-decoration: none;
   }
 }

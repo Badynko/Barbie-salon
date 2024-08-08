@@ -250,7 +250,6 @@ ul {
 @media all and (max-width: 550px) {
   body {
     max-width: 100%;
-    gap: 0;
   }
   .main {
     flex-direction: column;
@@ -329,18 +328,14 @@ ul {
 
   .order-button {
     background-color: #fb0e75;
-
-    font-size: 1.3rem;
-    font-family: "Cinzel Decorative", serif;
+    font-size: 1rem;
   }
 
   .order-button a:link {
     color: #fff;
-    text-decoration: none;
   }
 
   .order-button a:visited {
     color: #fff;
-    text-decoration: none;
   }
 }
