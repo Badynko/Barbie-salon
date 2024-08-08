@@ -394,14 +394,4 @@ ul {
     font-family: "Cinzel", serif;
     font-size: 0.7rem;
   }
-
-  .blink_me {
-    animation: blinker 2s linear infinite;
-  }
-
-  @keyframes blinker {
-    50% {
-      opacity: 0.3;
-    }
-  }
 }

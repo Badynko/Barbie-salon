@@ -160,17 +160,12 @@ ul {
   margin-top: 2rem;
   font-size: 1rem;
   color: #f7f7f7;
-  background: rgba(235, 17, 148, 0.7);
+  background: rgb(235, 17, 148);
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 600;
   padding: 1rem;
   border: none;
-}
-
-.left-sub:active,
-.left-sub:hover {
-  background: rgb(235, 17, 148);
 }
 .post {
   border-radius: 0.5rem;
@@ -363,7 +358,7 @@ ul {
   }
 
   .prices {
-    background-color: rgba(235, 17, 148, 0.7);
+    background-color: rgb(235, 17, 148);
     color: #f7f7f7;
     width: 70%;
     margin: 0 auto;
@@ -393,15 +388,5 @@ ul {
     width: 100%;
     font-family: "Cinzel", serif;
     font-size: 0.7rem;
-  }
-
-  .blink_me {
-    animation: blinker 2s linear infinite;
-  }
-
-  @keyframes blinker {
-    50% {
-      opacity: 0.3;
-    }
   }
 }

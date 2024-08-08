@@ -363,7 +363,7 @@ ul {
   }
 
   .prices {
-    background-color: rgba(235, 17, 148, 0.7);
+    background-color: rgb(235, 17, 148);
     color: #f7f7f7;
     width: 70%;
     margin: 0 auto;
@@ -393,15 +393,5 @@ ul {
     width: 100%;
     font-family: "Cinzel", serif;
     font-size: 0.7rem;
-  }
-
-  .blink_me {
-    animation: blinker 2s linear infinite;
-  }
-
-  @keyframes blinker {
-    50% {
-      opacity: 0.3;
-    }
   }
 }
