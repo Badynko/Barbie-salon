@@ -300,9 +300,6 @@ ul {
 
   .post h4 {
     color: rgb(235, 17, 148);
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.2rem;
   }
 
   .post-content p {

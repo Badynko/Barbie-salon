@@ -156,7 +156,6 @@ ul {
 }
 
 .left-sub {
-  font-family: "Cinzel", serif;
   margin-top: 2rem;
   font-size: 1rem;
   color: #f7f7f7;
@@ -298,16 +297,9 @@ ul {
     flex: 1 1;
   }
 
-  .post h4 {
-    color: rgb(235, 17, 148);
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.2rem;
-  }
-
   .post-content p {
     letter-spacing: 1.3;
-    max-width: 250px;
+    max-width: 200px;
   }
 
   .right {
@@ -357,8 +349,8 @@ ul {
   }
 
   .prices {
-    background-color: rgb(235, 17, 148);
-    color: #f7f7f7;
+    background-color: #000000;
+    color: rgb(235, 17, 148);
     width: 70%;
     margin: 0 auto;
     margin-top: 1rem;

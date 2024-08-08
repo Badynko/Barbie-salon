@@ -302,7 +302,7 @@ ul {
     color: rgb(235, 17, 148);
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.2rem;
+    text-underline-offset: 8px;
   }
 
   .post-content p {
