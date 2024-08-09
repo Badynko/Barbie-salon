@@ -252,14 +252,14 @@ ul {
 }
 
 .prices {
-  background-color: rgba(235, 17, 148, 0.7);
-  color: #f7f7f7;
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  border-radius: 0.5rem;
-  font-family: "Cinzel", serif;
-}
+    background-color: rgba(235, 17, 148, 0.7);
+    color: #f7f7f7;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-family: "Cinzel", serif;
+  }
 
 .price {
   margin-top: 1.5rem;
@@ -269,8 +269,8 @@ ul {
 .scroll-button {
   /* position should be fixed so that it sticks to the bottom */
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 5%;
+  right: 5%;
 
   /* removing extra syles outline and border */
   outline: none;
@@ -299,33 +299,10 @@ ul {
 .blink_me {
   animation: blinker 3s linear infinite;
 }
-
-.order-button {
-  background-color: rgb(235, 17, 148);
-
-  font-size: 1.3rem;
-  font-family: "Cinzel Decorative", serif;
-}
-
-.order-button a:link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.order-button a:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
-.show-btn {
-  opacity: 1 !important;
-  pointer-events: all !important;
-}
 @keyframes blinker {
   50% {
     opacity: 0.2;
-  }
-}
+  }}
 @media all and (max-width: 550px) {
   body {
     max-width: 100%;
@@ -416,6 +393,33 @@ ul {
     justify-content: center;
   }
 
+  .order-button {
+    background-color: rgb(235, 17, 148);
+
+    font-size: 1.3rem;
+    font-family: "Cinzel Decorative", serif;
+  }
+
+  .order-button a:link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .order-button a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .prices {
+    background-color: rgba(235, 17, 148, 0.7);
+    color: #f7f7f7;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-family: "Cinzel", serif;
+  }
+
   .prices li:first-child {
     padding-top: 0.5rem;
   }
@@ -438,13 +442,15 @@ ul {
     font-family: "Cinzel", serif;
     font-size: 0.7rem;
   }
-}
 
-.heart {
-  color: #fff;
-}
+  }
 
-#contact-gmail {
-  display: inline-block;
-  margin-left: 2rem;
+  .heart {
+    color: #fff;
+  }
+
+  #contact-gmail {
+    display: inline-block;
+    margin-left: 2rem;
+  }
 }

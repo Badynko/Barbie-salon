@@ -269,8 +269,8 @@ ul {
 .scroll-button {
   /* position should be fixed so that it sticks to the bottom */
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 5%;
+  right: 5%;
 
   /* removing extra syles outline and border */
   outline: none;
@@ -315,11 +315,6 @@ ul {
 .order-button a:visited {
   color: #fff;
   text-decoration: none;
-}
-
-.show-btn {
-  opacity: 1 !important;
-  pointer-events: all !important;
 }
 @keyframes blinker {
   50% {

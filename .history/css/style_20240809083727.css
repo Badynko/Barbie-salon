@@ -269,8 +269,8 @@ ul {
 .scroll-button {
   /* position should be fixed so that it sticks to the bottom */
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 15%;
+  right: 15%;
 
   /* removing extra syles outline and border */
   outline: none;
