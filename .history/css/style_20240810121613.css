@@ -362,8 +362,8 @@ ul {
   }
 
   .post img {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   }
 
   .left {
@@ -377,7 +377,6 @@ ul {
     margin-left: 0;
     margin-right: 0;
     flex: 1 1;
-    padding-right: 1rem;
   }
 
   .post h4 {

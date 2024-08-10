@@ -362,8 +362,8 @@ ul {
   }
 
   .post img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 
   .left {
@@ -377,7 +377,6 @@ ul {
     margin-left: 0;
     margin-right: 0;
     flex: 1 1;
-    padding-right: 1rem;
   }
 
   .post h4 {
@@ -388,7 +387,7 @@ ul {
   }
 
   .post-content p {
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.1rem;
     max-width: 250px;
   }
 
@@ -459,6 +458,5 @@ ul {
 }
 
 .post-content {
-  gap: 0;
-  overflow: hidden;
+  gap: 1rem;
 }
